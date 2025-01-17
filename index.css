@@ -1,0 +1,216 @@
+body {
+    font-family: sans-serif;
+    background-color: burlywood;
+    width:775px;
+   
+}
+
+h1{
+    text-align: center;
+   background-color: mediumaquamarine;
+   font-size: 40px;
+   font-family: fantasy;
+   
+}
+
+
+
+main{
+  text-align: center;
+  font-size: 20px;
+  color: cornflowerblue;
+  background-color: blueviolet;
+}
+  
+
+  
+  ul{
+    text-align: left;
+    color: white;
+  }
+
+
+  img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+   
+  }
+
+
+  footer{
+    background-color: black;
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+    
+  }
+
+  footer img{
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+  .gallery{
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 20%;
+    align-items: center;
+  }
+
+
+
+  
+
+
+h3{
+  text-align: center;
+  background-color: brown;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.article{
+    display: flex;
+  border: 5px dotted darkslategrey;
+  border-radius: 10px;
+  align-items: center;
+  
+}
+
+
+  
+
+  nav{
+ text-align: center;
+
+}
+
+
+
+
+h2{
+    font-family: monospace;
+}
+
+ol{
+font-family: monospace;
+}
+
+
+ul{
+    font-family: fantasy;
+}
+
+
+.favourite{
+  text-align: center;
+  font-size: 25px;
+  color: cornflowerblue;
+  background-color: blueviolet;
+  
+}
+
+aside{
+  right: 0;
+  position: fixed;
+ 
+  border-radius: 10%;
+  width: 100px;
+  height: 300px;
+  top: 200px;
+  background-color: darkkhaki;
+  
+}
+
+.aside-text{
+color:springgreen ;
+padding: 10px;
+font-size: 15px;
+
+}
+
+.social{
+  display: block;
+  width: 40px;
+ margin-left: 0px;
+  margin-top: 0px;
+ margin-right: 20px;
+  padding-bottom: 0px;
+}
+.social img{
+  width: 90px;
+  height: 90px;
+}
+
+
+.article::before{
+   
+  content: url("uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+  width: 30px;
+    height: 30px;
+    display:inline-block;
+    opacity: 0.5;
+   
+}
+
+nav a{
+    position: fixed;
+    left: -80px;
+    transition: 0.3s; 
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+
+
+}
+
+nav a:hover{
+    left:0;
+
+}
+
+.about{
+    top:20px;
+    background-color: #4CAF50;
+}
+
+.blog{
+    top:80px;
+    background-color: #2196F3;
+}
+
+.projects{
+    top:140px;
+    background-color: #f44336;
+}
+
+
+
+h1:hover::before{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png"
+    );
+    width: 20px;
+    display: inline-block;
+    margin-right:15px ;
+    opacity: 1;
+}
+
+h1:hover::after{
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png"
+    );
+
+    width: 20px;
+    display: inline-block;
+    margin-left:15px ;
+    opacity: 1;
+}
+
+
+
